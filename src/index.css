@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+@import "tailwindcss";
+
+
+@custom-variant dark {&:where(.dark, .dark *)}
+
+
+
+*{
+   font-family: "Manrope", sans-serif;
+   font-weight: 500;
+
+}
+
+
+
+
+@theme{
+  --color-primary: #5044E5;
+}
+
+.dm-sans {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+
+}
+.dm-sans2 {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+
+}
+
+.dm-sans3 {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+}
+
+.discount-badge {
+  width: 85px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 21px;
+  background: #EC1C65;
+}
+
+.discount-text {
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+}
