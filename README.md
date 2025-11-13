@@ -4,20 +4,6 @@ Welcome to the front-end web page for *Tanvi Host*. This is a modern, responsive
 
 ---
 
-## 🧰 Project Structure
-
-/
-├── public/
-├── src/
-│ ├── components/ # React components
-│ ├── styles/ # Global CSS / Tailwind / custom styles
-│ ├── assets/ # Images, icons, fonts
-│ └── App.jsx # Main React app entry
-├── index.html # HTML template
-├── package.json # Dependencies & scripts
-├── vite.config.js # Vite configuration
-└── README.md
-
 
 
 
