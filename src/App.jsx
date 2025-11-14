@@ -13,14 +13,16 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css"; 
 import Contact from './components/Contact'
 import CAT from './components/CAT'
+import Footer from './components/Footer'
+import ReactLenis from 'lenis/react'
 
 
 const App = () => {
 
-  const [theme, setTheme] = useState('light')
+
   return (
-    <div className='dark:bg-black relative overflow-x-hidden '>
-      <Navbar theme={theme} setTheme={setTheme} />
+    <ReactLenis root className="root-container dark:bg-black relative" style={{ width: '100%' }}>
+      <Navbar  />
       <Hero/>
       <Packageslist/>
       <Platformwks/>
@@ -31,7 +33,8 @@ const App = () => {
       <Teammembers/>
       <Contact/>
       <CAT/>
-    </div>
+      <Footer/>
+    </ReactLenis>
   )
 }
 

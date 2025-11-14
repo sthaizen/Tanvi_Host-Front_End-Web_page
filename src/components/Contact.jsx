@@ -13,7 +13,7 @@ const ContactForm = ({ formData, setFormData, handleSubmit }) => (
           placeholder="First Name"
           value={formData.firstName}
           onChange={(e) => setFormData({ ...formData, firstName: e.target.value })}
-          className="w-full h-[55px] px-4 rounded-[10px] border border-[#D5DFFF] bg-[#FAFBFF] text-lg font-medium placeholder:text-black/17 focus:outline-none focus:ring-2 focus:ring-black/20"
+          className="dm-sans w-full h-[55px] px-4 rounded-[10px] border border-[#D5DFFF] bg-[#FAFBFF] text-lg font-medium placeholder:text-black/17 focus:outline-none focus:ring-2 focus:ring-black/20"
         />
       </div>
       <div className="flex-1">
@@ -25,7 +25,7 @@ const ContactForm = ({ formData, setFormData, handleSubmit }) => (
           placeholder="Last Name"
           value={formData.lastName}
           onChange={(e) => setFormData({ ...formData, lastName: e.target.value })}
-          className="w-full h-[55px] px-4 rounded-[10px] border border-[#D5DFFF] bg-[#FAFBFF] text-lg font-medium placeholder:text-black/17 focus:outline-none focus:ring-2 focus:ring-black/20"
+          className=" dm-sans w-full h-[55px] px-4 rounded-[10px] border border-[#D5DFFF] bg-[#FAFBFF] text-lg font-medium placeholder:text-black/17 focus:outline-none focus:ring-2 focus:ring-black/20"
         />
       </div>
     </div>
@@ -39,7 +39,7 @@ const ContactForm = ({ formData, setFormData, handleSubmit }) => (
         placeholder="Email"
         value={formData.email}
         onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-        className="w-full h-[55px] px-4 rounded-[10px] border border-[#D5DFFF] bg-[#FAFBFF] text-lg font-medium placeholder:text-black/17 focus:outline-none focus:ring-2 focus:ring-black/20"
+        className= " dm-sans w-full h-[55px] px-4 rounded-[10px] border border-[#D5DFFF] bg-[#FAFBFF] text-lg font-medium placeholder:text-black/17 focus:outline-none focus:ring-2 focus:ring-black/20"
       />
     </div>
 
@@ -53,7 +53,7 @@ const ContactForm = ({ formData, setFormData, handleSubmit }) => (
           placeholder="Phone number"
           value={formData.phone}
           onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-          className="w-full h-[55px] pl-20 pr-4 rounded-[10px] border border-[#D5DFFF] bg-[#FAFBFF] text-lg font-medium placeholder:text-black/17 focus:outline-none focus:ring-2 focus:ring-black/20"
+          className="dm-sans w-full h-[55px] pl-20 pr-4 rounded-[10px] border border-[#D5DFFF] bg-[#FAFBFF] text-lg font-medium placeholder:text-black/17 focus:outline-none focus:ring-2 focus:ring-black/20"
         />
         <div className="absolute left-4 top-1/2 -translate-y-1/2 flex items-center gap-2">
           <span className="text-lg font-medium text-black">977+</span>
@@ -70,7 +70,7 @@ const ContactForm = ({ formData, setFormData, handleSubmit }) => (
         value={formData.message}
         onChange={(e) => setFormData({ ...formData, message: e.target.value })}
         rows={6}
-        className="w-full h-[196px] px-4 py-4 rounded-[10px] border border-[#D5DFFF] bg-[#FAFBFF] text-lg font-medium placeholder:text-black/17 focus:outline-none focus:ring-2 focus:ring-black/20 resize-none"
+        className=" dm-sans w-full h-[196px] px-4 py-4 rounded-[10px] border border-[#D5DFFF] bg-[#FAFBFF] text-lg font-medium placeholder:text-black/17 focus:outline-none focus:ring-2 focus:ring-black/20 resize-none"
       />
     </div>
 

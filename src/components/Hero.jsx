@@ -23,7 +23,7 @@ const Hero = () => {
 
         <div className='relative'>
             <video 
-            className='w-full max-w-6xl' 
+            className='w-full max-w-6xl rounded-[33px]' 
             autoPlay 
             muted 
             loop 

@@ -33,6 +33,10 @@
   font-weight: 600;
 
 }
+body {
+  overflow-x: hidden;
+}
+
 
 .dm-sans3 {
   font-family: "DM Sans", sans-serif;

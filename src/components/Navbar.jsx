@@ -21,9 +21,9 @@ const Navbar = ({theme, setTheme}) => {
 
 
             <a onClick={() => setSidebarOpen(false)} href="#" className='sm:hover:border-b dm-sans2'>Home</a>
-            <a onClick={() => setSidebarOpen(false)} href="#services" className='sm:hover:border-b dm-sans2'>Services</a>
-            <a onClick={() => setSidebarOpen(false)} href="#our-work" className='sm:hover:border-b dm-sans2'>Our Work</a>
-            <a onClick={() => setSidebarOpen(false)} href="#contact-us" className='sm:hover:border-b dm-sans2'>Contact Us</a>
+            <a onClick={() => setSidebarOpen(false)} href="#services" className='sm:hover:border-b dm-sans2'>Product</a>
+            <a onClick={() => setSidebarOpen(false)} href="#our-work" className='sm:hover:border-b dm-sans2'>Services</a>
+            <a onClick={() => setSidebarOpen(false)} href="#contact-us" className='sm:hover:border-b dm-sans2'>Certifications</a>
         </div>
 
         {/* connect button  */}
